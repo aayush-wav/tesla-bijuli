@@ -1,0 +1,65 @@
+@font-face {
+	font-family: gotham;
+	src: url(/assets/fonts/Gotham-Light.otf);
+}
+
+.container img {
+	inline-size: 10%;
+	filter: invert(100%);
+	margin: 20px;
+	width: 100px;
+}
+* {
+	box-sizing: border-box;
+	font-family: gotham;
+}
+:root {
+	--dark: #131212;
+}
+html {
+	background-color: var(--dark);
+}
+.image > img {
+	width: 900px;
+	position: absolute;
+	top: 10%;
+}
+.text {
+	color: white;
+	width: 320px;
+	float: right;
+	position: absolute;
+	top: 18%;
+	left: 70%;
+}
+.text p {
+	font-size: 14px;
+}
+.text h2 {
+	font-size: 28px;
+	text-align: center;
+}
+.reservation {
+	font-size: 14px;
+}
+.due-10-days {
+	padding: 16px 0px;
+}
+input[type="submit"] {
+	background-color: var(--dark);
+	width: 332px;
+	text-align: center;
+	border: solid white 2px;
+	color: white;
+	padding: 15px 80px;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 13px;
+	border-radius: 5px 5px 5px 5px;
+	margin-top: 20px;
+	transition: background-color 1s;
+}
+input[type="submit"]:hover {
+	background-color: #2b2929c0;
+}
